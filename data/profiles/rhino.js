@@ -1,24 +1,2 @@
-// Player state contains selections/quantities only. Game-defined labels and rules live in game-master.js.
-window.COD_PROFILE_RHINO = {
-  schemaVersion: 2,
-  id: 'rhino',
-  name: 'Rhino',
-  faction: 'League of Order',
-  season: 'Season of Adventure',
-  troopTier: 'T4',
-  troopQuantity: 1500000,
-  buildings: {
-    'rally-beacon':[24],
-    'mint':[25,24,23,23],
-    'lumber-mill':[25,24,24,23],
-    'foundry':[25,23,23,23],
-    'mana-production':[25,23,23,23]
-  },
-  technology: {
-    economy:{'architecture-i':10,'scholarship-i':10,'engineering-i':10,'resource-production':9},
-    military:{'defensive-formations-i':9,'legion-capacity-i':10,'infantry-combat':8,'cavalry-combat':8,'marksman-combat':8,'magic-combat':8}
-  },
-  crystals:{g6:38,legendary:135,epic:77,rare:15},
-  assets:{heroes:{},artifacts:{},pets:{},troops:{}},
-  objectives:{primaryTroopClass:'magic', optimizationMissions:['pvp-field','peacekeeping']}
-};
+// Rhino is Player Profile #1. This file stores account state, not game definitions.
+window.COD_PROFILE_RHINO={"schemaVersion":2,"id":"rhino","name":"Rhino","faction":"League of Order","currentCP":34420557,"currentBuildingPower":13839193,"currentTechnologyPower":7047449,"troopTier":"T4","troopQuantity":1718965,"buildings":{"hall":[25],"wall":[24],"college":[24],"watch-tower":[24],"rally-beacon":[24],"hospital":[24,24,24,24],"mint":[25,24,23,23],"lumber-mill":[25,24,24,23],"foundry":[25,23,23,23],"mana-refinery":[25,23,23,23],"troop-building":[25,25,25,25,25],"alliance-center":[25],"bazaar":[25]},"technology":{"economy":{"ECO-OREPROS":1,"ECO-GOLDP1":5,"ECO-GOLDM1":5,"ECO-FOREST1":5,"ECO-LOG1":5,"ECO-ARCH1":5,"ECO-WEAK1":5,"ECO-CONT1":5,"ECO-MIL1":5,"ECO-GEM":1,"ECO-MANA-P":1,"ECO-STAM1":5,"ECO-BREATH1":5,"ECO-SCH1":5,"ECO-IRON1":5,"ECO-ROCK1":5,"ECO-ADVM1":5,"ECO-MANAH1":5,"ECO-GOLDP2":10,"ECO-CONT2":10,"ECO-FOREST2":10,"ECO-IRON2":10,"ECO-ADVM2":10,"ECO-ARCH2":10,"ECO-GOLDM2":10,"ECO-LOG2":10,"ECO-SUP1":10,"ECO-ROCK2":8,"ECO-MANAH2":9,"ECO-WEAK2":5,"ECO-CONT3":10,"ECO-STAM2":4,"ECO-MIL2":4,"ECO-BREATH2":2,"ECO-SCH2":9,"ECO-GOLDP3":0,"ECO-GOLDM3":0,"ECO-FOREST3":0,"ECO-LOG3":0,"ECO-IRON3":0,"ECO-ROCK3":0,"ECO-ADVM3":0,"ECO-MANAH3":0,"ECO-LAND":0,"ECO-SUP2":0},"military":{"MIL-CONS1":1,"MIL-INF1":5,"MIL-INFP1":5,"MIL-SWIFT1":5,"MIL-CAVP1":5,"MIL-SHARP1":5,"MIL-MARKP1":5,"MIL-ARC1":5,"MIL-MAGP1":5,"MIL-INTEL1":5,"MIL-SWORD2":1,"MIL-KNIGHT2":1,"MIL-BALL2":1,"MIL-VEST2":1,"MIL-PATH1":10,"MIL-MELEEA":10,"MIL-RANGEA":10,"MIL-MELEEP":10,"MIL-RANGEP":10,"MIL-INFSK":1,"MIL-CAVSK":1,"MIL-MARKSK":1,"MIL-MAGSK":1,"MIL-URBA":8,"MIL-URBD":8,"MIL-CONS2":10,"MIL-SWORD3":1,"MIL-BALL3":1,"MIL-VEST3":1,"MIL-KNIGHT3":1,"MIL-INTEL2":5,"MIL-DEF1":9,"MIL-ASS1":10,"MIL-FIRST1":9,"MIL-PATH2":10,"MIL-T4INF":1,"MIL-T4CAV":1,"MIL-T4MARK":1,"MIL-T4MAG":1,"MIL-T4FLY":1,"MIL-DEF2":7,"MIL-ASS2":6,"MIL-FIRST2":7,"MIL-INF2":0,"MIL-INFP2":0,"MIL-SWIFT2":0,"MIL-CAVP2":0,"MIL-SHARP2":3,"MIL-MARKP2":0,"MIL-ARC2":6,"MIL-MAGP2":3,"MIL-T5INF":0,"MIL-T5CAV":0,"MIL-T5MARK":0,"MIL-T5MAG":0,"MIL-T5FLY":0,"MIL-PATH3":0}},"objectives":{"primaryTroopClass":"magic","optimizationMissions":["pvp-field","peacekeeping"]}};
