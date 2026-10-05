@@ -1,0 +1,1 @@
+Checked: V3 architecture retained; Rhino CP baseline retained; Celestial excluded from buildings; grouped display order restored.
