@@ -1,0 +1,2 @@
+// Troop taxonomy is deliberately separate from the city-building schema.
+(()=>{const m=window.COD_GAME_MASTER;if(!m)return;m.troopTaxonomy={classes:['Infantry','Cavalry','Marksman','Magic','Flying'],notes:{celestial:'Celestial belongs to troop/combat data and must never be modeled as a city building.'}};})();
