@@ -1,0 +1,1 @@
+Players select from hardcoded valid game values; avoid open-text entry for game-defined entities and levels.
