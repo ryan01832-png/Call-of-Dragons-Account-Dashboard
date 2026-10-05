@@ -1,0 +1,1 @@
+Fixed game definitions are hardcoded in master data. A player selects only their unique current status; analytics compare account state to the fixed game master.
