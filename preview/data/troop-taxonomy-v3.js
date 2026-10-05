@@ -1,0 +1,2 @@
+// Troop/combat taxonomy is deliberately separate from city buildings.
+(()=>{const m=window.COD_GAME_MASTER;if(!m)return;m.troopTaxonomy={classes:['Infantry','Cavalry','Marksman','Magic','Flying'],notes:{celestial:'Celestial is a troop/combat classification, not a city building.'}};})();
