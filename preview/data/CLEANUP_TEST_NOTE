@@ -1,0 +1,1 @@
+Manual code inspection confirms the Buildings renderer iterates only master.buildings after Celestial filtering and groups cards by buildingDisplayGroups.
