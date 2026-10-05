@@ -1,0 +1,1 @@
+V3.1 restores grouped graphical Buildings presentation, preserves Rhino's verified CP baseline, and explicitly classifies Celestial as troop/combat data rather than a building.
