@@ -29,3 +29,32 @@
 .hero-grade-detail{display:flex;flex-direction:column;justify-content:center;gap:5px;color:var(--muted);font-size:8px}
 .hero-grade-detail b{color:var(--text);font-size:10px}
 @media(max-width:700px){.hero-tile{grid-template-columns:95px 1fr}.hero-grade-row{grid-template-columns:62px 1fr}.hero-readiness{grid-column:1/-1}.hero-portrait{min-height:160px}.hero-portrait img{min-height:160px}}
+
+/* Combat Assets V4 — original command-card composition */
+.combat-columns>section:first-child{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:12px;align-content:start}
+.combat-columns>section:first-child>h3{grid-column:1/-1}
+.hero-command-card{display:flex!important;flex-direction:column;padding:0!important;min-height:410px;overflow:hidden;border:1px solid #2a3d4b;background:linear-gradient(160deg,#10202c,#09131c 72%)}
+.hero-command-card .hero-art{position:relative;height:225px;overflow:hidden;background:radial-gradient(circle at 50% 30%,#294a5c,#08121a 70%);border:0}
+.hero-command-card .hero-art img{width:100%;height:100%;min-height:0;object-fit:cover;object-position:center 18%;display:block;transform:scale(1.03)}
+.hero-art-shade{position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(6,14,21,.18) 62%,#0b1721 100%)}
+.hero-nameplate{position:absolute;left:14px;right:14px;bottom:10px;text-shadow:0 2px 8px #000}
+.hero-nameplate span{font-size:8px;letter-spacing:1.4px;text-transform:uppercase;color:#f2c75f}
+.hero-nameplate h3{margin:2px 0 0!important;font:700 25px Georgia,serif;color:#fff}
+.hero-command-body{padding:12px 14px 14px}
+.hero-role-chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.hero-role-chips span{padding:4px 7px;border:1px solid #29404f;border-radius:999px;background:#0a1821;color:#9fc7d6;font-size:8px;text-transform:uppercase;letter-spacing:.6px}
+.hero-command-metrics{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:6px}
+.hero-command-metrics>div{padding:8px;border:1px solid #213542;border-radius:6px;background:#08141d}
+.hero-command-metrics small,.hero-meta-axis small{display:block;color:#7893a5;font-size:7px;letter-spacing:.8px}
+.hero-command-metrics b{display:block;margin-top:3px;font-size:10px;color:#edf3f7}
+.hero-intel-strip{display:grid;grid-template-columns:54px 84px 1fr;gap:7px;align-items:stretch;margin-top:8px}
+.hero-meta-badge{display:grid;place-items:center;border:1px solid #66562d;border-radius:7px;background:linear-gradient(145deg,#1a1a12,#0b151b);padding:6px}
+.hero-meta-badge small{font-size:7px;color:#b7a56d}.hero-meta-badge strong{font-size:24px;line-height:1;color:#e7b54a}
+.hero-meta-axis{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.hero-meta-axis span{display:grid;place-items:center;padding:5px;border:1px solid #213542;border-radius:6px;background:#08141d;text-align:center}
+.hero-meta-axis b{font-size:11px;color:#edf3f7}
+.hero-ready-meter{padding:7px 8px;border:1px solid #213542;border-radius:6px;background:#08141d}
+.hero-ready-meter>div:first-child{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;color:#7893a5;font-size:7px;letter-spacing:.5px}
+.hero-ready-meter b{color:#50d5d0;font-size:12px}
+.hero-command-card .asset-note{margin-top:9px;padding-top:8px;border-top:1px solid #1d303c;color:#9db0bc;font-size:9px}
+@media(max-width:1200px){.combat-columns>section:first-child{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}}
