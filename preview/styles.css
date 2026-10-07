@@ -58,3 +58,16 @@
 .hero-ready-meter b{color:#50d5d0;font-size:12px}
 .hero-command-card .asset-note{margin-top:9px;padding-top:8px;border-top:1px solid #1d303c;color:#9db0bc;font-size:9px}
 @media(max-width:1200px){.combat-columns>section:first-child{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}}
+
+/* Combat Assets V5 — compact canonical shield-icon cards */
+.combat-columns>section:first-child{grid-template-columns:repeat(auto-fit,minmax(285px,1fr))}
+.hero-compact-card{padding:12px!important;min-height:0!important;background:linear-gradient(155deg,#10202c,#09131c 76%);border:1px solid #2a3d4b}
+.hero-compact-head{display:grid;grid-template-columns:78px minmax(0,1fr) 66px;gap:10px;align-items:center}
+.hero-icon-wrap{width:78px;height:78px;display:grid;place-items:center;background:radial-gradient(circle,#183344 0,#09141d 72%);border-radius:10px;overflow:hidden}
+.hero-icon-wrap img{width:74px;height:74px;object-fit:contain;display:block}
+.hero-identity{min-width:0}.hero-kicker{font-size:8px;letter-spacing:1px;color:#e7b54a;text-transform:uppercase}.hero-identity h3{margin:2px 0 7px!important;font:700 20px Georgia,serif;color:#fff}
+.hero-compact-card .hero-role-chips{margin:0}.hero-compact-card .hero-role-chips span{font-size:7px;padding:3px 5px}
+.hero-dev-score{text-align:right;border-left:1px solid #213542;padding-left:8px}.hero-dev-score small{display:block;color:#7893a5;font-size:6px;line-height:1.25;letter-spacing:.6px}.hero-dev-score b{display:block;color:#50d5d0;font-size:20px;margin-top:5px}
+.hero-compact-card .hero-command-metrics{margin-top:10px}.hero-dev-bar{height:4px;margin-top:8px;background:#142530;border-radius:999px;overflow:hidden}.hero-dev-bar i{display:block;height:100%;background:#50d5d0;border-radius:inherit}
+.hero-compact-card .asset-note{margin-top:8px;padding-top:7px;border-top:1px solid #1d303c}
+@media(max-width:700px){.hero-compact-head{grid-template-columns:68px minmax(0,1fr) 58px}.hero-icon-wrap{width:68px;height:68px}.hero-icon-wrap img{width:64px;height:64px}}
